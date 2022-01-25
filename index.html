@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz JS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz-container">
+        <h1>Тест по основам HTML</h1>
+
+      <div class="quiz" id="quiz">
+        <div class="quiz-questions" id="questions"></div>
+        <!-- <div class="quiz-results" id="results"></div> -->
+        <div class="quiz-indicator" id="indicator">1/10</div>
+        <div class="quiz-controls">
+          <!-- <button class="btn-restart" id="restart">Restart</button> -->
+          <button class="btn-next" id="next" disabled>Next</button>
+        </div>
+      </div>
+      <div class="quiz-results-container" id="results-container">
+        <div class="quiz-results" id="results"></div>
+        <button class="btn-restart" id="restart">Restart</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
